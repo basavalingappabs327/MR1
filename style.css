@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f7f6;
+  margin: 0;
+  padding: 20px;
+}
+
+.form-container {
+  max-width: 850px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #1a365d;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #4a5568;
+  font-size: 0.9em;
+  margin-bottom: 25px;
+}
+
+fieldset {
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  padding: 20px;
+  margin-bottom: 25px;
+}
+
+legend {
+  font-weight: bold;
+  color: #2b6cb0;
+  padding: 0 8px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-row {
+  display: flex;
+  gap: 15px;
+}
+
+.half {
+  flex: 1;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 0.9em;
+  color: #2d3748;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+textarea {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #cbd5e0;
+  border-radius: 4px;
+  font-size: 0.95em;
+}
+
+.checkbox-inline {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 6px;
+  font-weight: normal;
+  font-size: 0.85em;
+  color: #4a5568;
+  cursor: pointer;
+}
+
+.checkbox-inline input[type="checkbox"] {
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 15px;
+}
+
+th, td {
+  border: 1px solid #cbd5e0;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #edf2f7;
+  font-size: 0.85em;
+}
+
+.total-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.total-container input {
+  width: 180px;
+  font-weight: bold;
+  background-color: #f7fafc;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 16px;
+  font-weight: bold;
+}
+
+.btn-submit {
+  background-color: #2b6cb0;
+  color: white;
+  width: 100%;
+  font-size: 1em;
+}
+
+.btn-submit:hover {
+  background-color: #2c5282;
+}
+
+.btn-secondary {
+  background-color: #4a5568;
+  color: white;
+}
+
+.btn-danger {
+  background-color: #e53e3e;
+  color: white;
+  padding: 4px 8px;
+}
+
+.status-msg {
+  margin-top: 15px;
+  text-align: center;
+  font-weight: bold;
+}
